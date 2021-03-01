@@ -1,0 +1,38 @@
+ <add key="LogFilePath" value="C:\Users\ved parsekar\Documents\Log"/>
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Configuration;
+
+namespace OnlineShopingLOG
+{
+    public static class LogManager
+    {
+        public static void Log(Exception ex)
+        {
+            StringBuilder errorMessage = new StringBuilder();
+
+            errorMessage.AppendFormat("Time= {0}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt"));
+            errorMessage.Append(Environment.NewLine);
+            errorMessage.AppendFormat("Message= {0}", ex.Message);
+            errorMessage.Append(Environment.NewLine);
+            errorMessage.AppendFormat("StackTrace= {0}", ex.StackTrace);
+            errorMessage.Append(Environment.NewLine);
+            errorMessage.AppendFormat("Source= {0}", ex.Source);
+            errorMessage.Append(Environment.NewLine);
+            errorMessage.AppendFormat("targetSite= {0}", ex.TargetSite);
+            errorMessage.Append(Environment.NewLine);
+
+            string path = ConfigurationManager.AppSettings["LogFilePath"];
+
+            StreamWriter writer = File.AppendText(path);//Used to append to an existing file //new StreamWriter(path);//Used to create a new file everytime it is run
+            writer.WriteLine(errorMessage);
+            writer.Close();
+
+        }
+    }
+}
