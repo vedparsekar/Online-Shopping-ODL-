@@ -1,0 +1,21 @@
+Learn
+
+1. Introductions - Set Expectations for Training & ASP.NET/SQL
+2. ODL Products Overview
+3. Development Process
+4. Code Review & Checklist
+5. Document on how to navigate through SQL databases. (sp_help, sp_helptext,    system views)
+6. TS Database Structure - Service Tables
+
+******************************************************************
+
+Exercise
+
+	1. TS Database Assignment - Write Service Queries
+
+
+Read
+	A. Doc on Coding Standards
+	B. SQL cheat sheet
+
+	
