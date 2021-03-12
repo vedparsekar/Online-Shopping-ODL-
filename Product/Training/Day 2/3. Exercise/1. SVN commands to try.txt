@@ -1,0 +1,9 @@
+checkout
+update
+commit
+showlog
+diff
+check for modification (compare with base)
+revert
+blame
+
