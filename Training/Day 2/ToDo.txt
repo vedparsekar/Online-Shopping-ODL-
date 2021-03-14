@@ -1,0 +1,23 @@
+Learn
+
+1. ODL Repo Structure
+2. SVN - streams,  basic command and best practices
+3. SVN - streams, Merging, diff DB for each stream
+4. Revise - Coding Guidelines
+5. TS Database Structure - Package Tables
+
+******************************************************************
+
+Exercise
+
+	1. TS Database Assignment - Write Package Queries
+	2. Try out SVN commands on the test server provided
+	3. Check out TSV2 and Api Repo
+
+
+Read
+	A. Doc on SVN
+	B. Doc on SVN - Merging
+
+
+	

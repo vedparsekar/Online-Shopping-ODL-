@@ -1,0 +1,19 @@
+Link to try SVN Commands: - https://dev94.odlindia.com/svn/TrainingRepo/branches/
+
+Link for corresponding build: - http://odl-goa-gen.odlindia.com:81/svn/ODLDOC/Internal/Product%20setup/Products/416/Travel%20Studio/
+
+Link to training docs on Doc server: - http://odl-goa-gen.odlindia.com:81/svn/ODLDOC/Internal/Departments/Training/
+
+Link to video library: - \\ODL-GOA-GEN\VideoLibrary
+
+JIRA link - https://jira.opendestinations.com:7879/secure/Dashboard.jspa
+
+\\odlcomp2 - for IP messanger
+
+webmail - http://mail.opendestinations.com:3000/
+
+
+API-trunk: http://odl-bld-srv.odlindia.com:81/svn/APIRepo/trunk
+TSV2-trunk: http://odl-bld-srv.odlindia.com:81/svn/TSV2Repo/trunk
+TSRespo-trunk: http://odl-bld-srv.odlindia.com:81/svn/TSRepo/trunk
+
